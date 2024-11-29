@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ViagensAbreu.Exercise.Domain\ViagensAbreu.Exercise.Domain.csproj" />
+      <ProjectReference Include="..\ViagensAbreu.Exercise.Shared\ViagensAbreu.Exercise.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="LanguageExt.Parsec" Version="4.4.9" />
+    </ItemGroup>
+
+</Project>
