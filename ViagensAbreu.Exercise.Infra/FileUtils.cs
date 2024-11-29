@@ -9,7 +9,7 @@ public static class FileUtils
     {
         if (!File.Exists(path))
         {
-            return new Result<IList<T>>(new FileDoesNotExistException());
+            return new FileDoesNotExistException();
         }
         
         var result = new List<T>();
